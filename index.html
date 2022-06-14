@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validator </title>
+
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/9d3faebd6c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        
+        <form id="form" class="form">
+            <h2 class="head">Register With Us</h2>
+            
+            <div class="form-control">
+                <span><i class="fa-solid fa-user-large"></i></span> &nbsp;
+                <label for="username">Username :</label>
+                <input type="text" class="input_text" id="username" placeholder="Enter Username">
+                <small>Error Message</small>
+            </div>
+            
+            <div class="form-control">
+                <span><i class="fa-solid fa-envelope"></i></span> &nbsp;
+                <label for="email">Email :</label>
+                <input type="text" class="input_text" id="email" placeholder="Enter email">
+                <small>Error Message</small>
+            </div>
+            
+            <div class="form-control">
+                <span><i class="fa-solid fa-lock"></i></span> &nbsp;
+                <label for="password">Password :</label>
+                <input type="password" class="input_text" id="password" placeholder="Enter password">
+                <small>Error Message</small>
+            </div>
+            
+            <div class="form-control">
+                <span><i class="fa-solid fa-calendar-check"></i></span> &nbsp;
+                <label for="confirm-password">Confirm :</label>
+                <input type="password" class="input_text" id="confirm-password" placeholder="Enter confirm-password">
+                <small>Error Message</small>
+            </div>
+            
+            <button class="btn">Submit</button>
+            
+            
+        </form>
+        
+        
+                <div class="screen__background">
+                    <span class="screen__background__shape screen__background__shape1"></span>
+                    <span class="screen__background__shape screen__background__shape2"></span>
+                    <span class="screen__background__shape screen__background__shape3"></span>
+                </div>	
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
